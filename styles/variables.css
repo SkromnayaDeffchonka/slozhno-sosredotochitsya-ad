@@ -9,6 +9,7 @@
   --side-padding: clamp(10px, 0.9286rem + -0.3571vw, 20px);
 }
 
+/* 🌑 ТЁМНАЯ ТЕМА (НЕОН) — ПО УМОЛЧАНИЮ */
 :root,
 :root.theme-dark {
   --bg-color: #000028;
@@ -17,13 +18,17 @@
   --accent-color: #ff0070;
   --accent-text: #000028;
   --title-color: #db00ff;
-  --button-color: #ff0070;
-  --button-hover: rgba(255, 0, 112, 0.4);
+  --button-color: #ff0070;           /* обычное состояние */
+  --button-hover-color: #fff1f7;     /* ☀️ ДЕНЬ (светлый) для hover */
+  --button-focus-color: #fff1f7;     /* ☀️ ДЕНЬ (светлый) для focus */
+  --button-hover-border: #fff1f7;    /* рамка при hover */
+  --button-focus-border: #fff1f7;    /* рамка при focus */
   --section-title-color: #ff0070;
   --rec-visibility: visible;
   --decor-zone-color: #ff0070;
 }
 
+/* ☀️ СВЕТЛАЯ ТЕМА (ДЕНЬ) */
 :root.theme-light {
   --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
@@ -31,8 +36,11 @@
   --accent-color: #ff8dcb;
   --accent-text: #353430;
   --title-color: #ffc2e6;
-  --button-color: #353430;
-  --button-hover: rgba(53, 52, 48, 0.4);
+  --button-color: #353430;           /* тёмный текст */
+  --button-hover-color: #353430;     /* тёмный для hover */
+  --button-focus-color: #353430;     /* тёмный для focus */
+  --button-hover-border: #353430;    /* рамка */
+  --button-focus-border: #353430;    /* рамка */
   --section-title-color: #353430;
   --rec-visibility: hidden;
   --decor-zone-color: #353430;
@@ -47,7 +55,10 @@
     --accent-text: #353430;
     --title-color: #ffc2e6;
     --button-color: #353430;
-    --button-hover: rgba(53, 52, 48, 0.4);
+    --button-hover-color: #353430;
+    --button-focus-color: #353430;
+    --button-hover-border: #353430;
+    --button-focus-border: #353430;
     --section-title-color: #353430;
     --rec-visibility: hidden;
     --decor-zone-color: #353430;
@@ -63,7 +74,10 @@
     --accent-text: #000028;
     --title-color: #db00ff;
     --button-color: #ff0070;
-    --button-hover: rgba(255, 0, 112, 0.4);
+    --button-hover-color: #fff1f7;
+    --button-focus-color: #fff1f7;
+    --button-hover-border: #fff1f7;
+    --button-focus-border: #fff1f7;
     --section-title-color: #ff0070;
     --rec-visibility: visible;
     --decor-zone-color: #ff0070;

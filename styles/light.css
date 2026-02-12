@@ -6,7 +6,10 @@
   --accent-text: #353430;
   --title-color: #ffc2e6;
   --button-color: #353430;
-  --button-hover: rgba(53, 52, 48, 0.4);
+  --button-hover-color: #353430;
+  --button-focus-color: #353430;
+  --button-hover-border: #353430;
+  --button-focus-border: #353430;
   --section-title-color: #353430;
   --rec-visibility: hidden;
   --decor-zone-color: #353430;
