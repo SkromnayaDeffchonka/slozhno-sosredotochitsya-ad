@@ -9,7 +9,7 @@
   --side-padding: clamp(10px, 0.9286rem + -0.3571vw, 20px);
 }
 
-/* 🌑 ТЁМНАЯ ТЕМА (НЕОН) — ПО УМОЛЧАНИЮ */
+/* 🌑 ТЁМНАЯ ТЕМА - ТОЧНО КАК В МАКЕТЕ */
 :root,
 :root.theme-dark {
   --bg-color: #000028;
@@ -18,17 +18,20 @@
   --accent-color: #ff0070;
   --accent-text: #000028;
   --title-color: #db00ff;
-  --button-color: #ff0070;           /* обычное состояние */
-  --button-hover-color: #fff1f7;     /* ☀️ ДЕНЬ (светлый) для hover */
-  --button-focus-color: #fff1f7;     /* ☀️ ДЕНЬ (светлый) для focus */
-  --button-hover-border: #fff1f7;    /* рамка при hover */
-  --button-focus-border: #fff1f7;    /* рамка при focus */
+  --button-color: #ff0070;
+  --button-hover-color: #ff0070;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
+  --button-focus-color: #ff0070;
+  --button-focus-border: #ff0070;
   --section-title-color: #ff0070;
   --rec-visibility: visible;
   --decor-zone-color: #ff0070;
+  --link-color: #f1b2ce;
+  --link-shadow: #ff0070;
+  --link-focus: #f1b2ce;
 }
 
-/* ☀️ СВЕТЛАЯ ТЕМА (ДЕНЬ) */
+/* ☀️ СВЕТЛАЯ ТЕМА */
 :root.theme-light {
   --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
@@ -36,14 +39,17 @@
   --accent-color: #ff8dcb;
   --accent-text: #353430;
   --title-color: #ffc2e6;
-  --button-color: #353430;           /* тёмный текст */
-  --button-hover-color: #353430;     /* тёмный для hover */
-  --button-focus-color: #353430;     /* тёмный для focus */
-  --button-hover-border: #353430;    /* рамка */
-  --button-focus-border: #353430;    /* рамка */
+  --button-color: #353430;
+  --button-hover-color: #353430;
+  --button-hover-border: rgba(53, 52, 48, 0.4);
+  --button-focus-color: #353430;
+  --button-focus-border: #353430;
   --section-title-color: #353430;
   --rec-visibility: hidden;
   --decor-zone-color: #353430;
+  --link-color: #353430;
+  --link-shadow: #ff8dcb;
+  --link-focus: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -56,12 +62,15 @@
     --title-color: #ffc2e6;
     --button-color: #353430;
     --button-hover-color: #353430;
+    --button-hover-border: rgba(53, 52, 48, 0.4);
     --button-focus-color: #353430;
-    --button-hover-border: #353430;
     --button-focus-border: #353430;
     --section-title-color: #353430;
     --rec-visibility: hidden;
     --decor-zone-color: #353430;
+    --link-color: #353430;
+    --link-shadow: #ff8dcb;
+    --link-focus: #353430;
   }
 }
 
@@ -74,12 +83,15 @@
     --accent-text: #000028;
     --title-color: #db00ff;
     --button-color: #ff0070;
-    --button-hover-color: #fff1f7;
-    --button-focus-color: #fff1f7;
-    --button-hover-border: #fff1f7;
-    --button-focus-border: #fff1f7;
+    --button-hover-color: #ff0070;
+    --button-hover-border: rgba(255, 0, 112, 0.4);
+    --button-focus-color: #ff0070;
+    --button-focus-border: #ff0070;
     --section-title-color: #ff0070;
     --rec-visibility: visible;
     --decor-zone-color: #ff0070;
+    --link-color: #f1b2ce;
+    --link-shadow: #ff0070;
+    --link-focus: #f1b2ce;
   }
 }

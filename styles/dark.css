@@ -6,13 +6,16 @@
   --accent-text: #000028;
   --title-color: #db00ff;
   --button-color: #ff0070;
-  --button-hover-color: #fff1f7;
-  --button-focus-color: #fff1f7;
-  --button-hover-border: #fff1f7;
-  --button-focus-border: #fff1f7;
+  --button-hover-color: #ff0070;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
+  --button-focus-color: #ff0070;
+  --button-focus-border: #ff0070;
   --section-title-color: #ff0070;
   --rec-visibility: visible;
   --decor-zone-color: #ff0070;
+  --link-color: #f1b2ce;
+  --link-shadow: #ff0070;
+  --link-focus: #f1b2ce;
 }
 
 .page.theme-dark {
