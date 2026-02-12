@@ -1,35 +1,19 @@
 :root.theme-dark {
   --bg-color: #000028;
-  --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --title-color: #db00ff;
-  --border-color: #ff0070;
-  --shadow-color: #ff0070;
-  --link-shadow: #ff0070;
-  --section-title: #ff0070;
-  --decorated-zone: #ff0070;
-  --menu-color: #ff0070;
-  --menu-hover: rgba(255, 0, 112, 0.4);
-  --corners-color: #ff0070;
-  --rec-visible: visible;
   --bg-image: url('../images/cover-image-dark.png');
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --accent-text: #000028;
+  --title-color: #DB00FF;
+  --button-color: #FF0070;
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --section-title-color: #FF0070;
+  --rec-visibility: visible;
+  --decor-zone-color: #FF0070;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --title-color: #db00ff;
-    --border-color: #ff0070;
-    --shadow-color: #ff0070;
-    --link-shadow: #ff0070;
-    --section-title: #ff0070;
-    --decorated-zone: #ff0070;
-    --menu-color: #ff0070;
-    --menu-hover: rgba(255, 0, 112, 0.4);
-    --corners-color: #ff0070;
-    --rec-visible: visible;
-    --bg-image: url('../images/cover-image-dark.png');
-  }
+.theme-dark .page {
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  color: var(--text-color);
 }
