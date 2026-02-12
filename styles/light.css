@@ -1,10 +1,10 @@
 :root.theme-light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --text-color: #353430;
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
   --border-color: #353430;
-  --shadow-color: #FF0070;
+  --shadow-color: #ff0070;
   --link-shadow: #353430;
   --section-title: #353430;
   --decorated-zone: #353430;
@@ -17,12 +17,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --text-color: #353430;
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e6;
     --border-color: #353430;
-    --shadow-color: #FF0070;
+    --shadow-color: #ff0070;
     --link-shadow: #353430;
     --section-title: #353430;
     --decorated-zone: #353430;

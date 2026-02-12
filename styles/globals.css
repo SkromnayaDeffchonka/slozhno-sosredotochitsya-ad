@@ -15,7 +15,7 @@ body {
   max-inline-size: 100%;
   overflow-x: hidden;
   margin: 0 auto;
-  font-family: var(--main-font), 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 img {
