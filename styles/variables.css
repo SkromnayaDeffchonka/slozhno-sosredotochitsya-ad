@@ -1,43 +1,36 @@
 :root {
-  /* Шрифты */
   --main-font: 'IBM Plex Mono', monospace;
   --bold-font-weight: 700;
   --regular-font-weight: 400;
-  
-  /* Размеры */
   --section-title-size: clamp(1.1875rem, 0.9018rem + 1.2143vw, 1.75rem);
   --card-title-size: 1.375rem;
   --text-size: 1.125rem;
-  
-  /* Отступы */
   --gap: 20px;
   --side-padding: clamp(10px, 0.9286rem + -0.3571vw, 20px);
 }
 
-/* ТЕМНАЯ ТЕМА (НЕОН) - ПО УМОЛЧАНИЮ */
 :root,
 :root.theme-dark {
   --bg-color: #000028;
   --bg-image: url('../images/cover-image-dark.png');
-  --text-color: #F1B2CE;
-  --accent-color: #FF0070;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
   --accent-text: #000028;
-  --title-color: #DB00FF;
-  --button-color: #FF0070;
+  --title-color: #db00ff;
+  --button-color: #ff0070;
   --button-hover: rgba(255, 0, 112, 0.4);
-  --section-title-color: #FF0070;
+  --section-title-color: #ff0070;
   --rec-visibility: visible;
-  --decor-zone-color: #FF0070;
+  --decor-zone-color: #ff0070;
 }
 
-/* СВЕТЛАЯ ТЕМА (ДЕНЬ) */
 :root.theme-light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
   --text-color: #353430;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --accent-text: #353430;
-  --title-color: #FFC2E6;
+  --title-color: #ffc2e6;
   --button-color: #353430;
   --button-hover: rgba(53, 52, 48, 0.4);
   --section-title-color: #353430;
@@ -47,12 +40,12 @@
 
 @media (prefers-color-scheme: light) {
   :root.theme-auto {
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --bg-image: url('../images/cover-image-light.png');
     --text-color: #353430;
-    --accent-color: #FF8DCB;
+    --accent-color: #ff8dcb;
     --accent-text: #353430;
-    --title-color: #FFC2E6;
+    --title-color: #ffc2e6;
     --button-color: #353430;
     --button-hover: rgba(53, 52, 48, 0.4);
     --section-title-color: #353430;
@@ -65,14 +58,14 @@
   :root.theme-auto {
     --bg-color: #000028;
     --bg-image: url('../images/cover-image-dark.png');
-    --text-color: #F1B2CE;
-    --accent-color: #FF0070;
+    --text-color: #f1b2ce;
+    --accent-color: #ff0070;
     --accent-text: #000028;
-    --title-color: #DB00FF;
-    --button-color: #FF0070;
+    --title-color: #db00ff;
+    --button-color: #ff0070;
     --button-hover: rgba(255, 0, 112, 0.4);
-    --section-title-color: #FF0070;
+    --section-title-color: #ff0070;
     --rec-visibility: visible;
-    --decor-zone-color: #FF0070;
+    --decor-zone-color: #ff0070;
   }
 }

@@ -1,10 +1,10 @@
 :root.theme-light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
   --text-color: #353430;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --accent-text: #353430;
-  --title-color: #FFC2E6;
+  --title-color: #ffc2e6;
   --button-color: #353430;
   --button-hover: rgba(53, 52, 48, 0.4);
   --section-title-color: #353430;
@@ -12,7 +12,7 @@
   --decor-zone-color: #353430;
 }
 
-.theme-light .page {
+.page.theme-light {
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   color: var(--text-color);
